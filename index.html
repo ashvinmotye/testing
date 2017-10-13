@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Motye Ashvin</title>
+    <link rel="icon" href="./assets/images/icon.png" type="image/png">
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="title right">Hello</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <img src="./assets/images/ashvin.jpg" alt="Ashvin Motye">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6"></div>
+                <div class="col-xs-6">
+                    <h1 id="surname">motye</h1>
+                    <h1 id="name">ashvin</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="title left">About</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>I love coding stuffs.</p>
+                    <p>I sleep, like a lot.</p>
+                    <p>I design.</p>
+                    <p>...and oh, I eat, like a lot also.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="title right" style="line-height: 50px;">process</div>
+
+        <div class="container" style="max-width: 1200px;">
+            <div class="row">
+                <div class="col-xs-4">
+                    <h2>think</h2>
+                    <p>begins with an idea</p>
+                </div>
+
+                <div class="col-xs-4" style="text-align: center;">
+                    <h2>design</h2>
+                    <p>visualise</p>
+                </div>
+
+                <div class="col-xs-4" style="text-align: right;">
+                    <h2>code</h2>
+                    <p>materialise the idea</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="title left">skills</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">html5</div>
+                <div class="col-xs-4">css3</div>
+                <div class="col-xs-4">javascript</div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-4">jquery</div>
+                <div class="col-xs-4">bootstrap</div>
+                <div class="col-xs-4">php</div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-4">mysql</div>
+                <div class="col-xs-4">ajax</div>
+                <div class="col-xs-4">wordpress</div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-4">photoshop</div>
+                <div class="col-xs-4">java</div>
+                <div class="col-xs-4">android</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="row">
+            <div class="col-xs-6" style="position: relative" id="blog">
+                <div class="title left">blog</div>
+
+                <div class="container" style="width: 500px">
+                    <p>working on it</p>
+                </div>
+            </div>
+
+            <div class="col-xs-6" style="position: relative" id="social">
+                <div class="title right">social</div>
+
+                <div class="container" style="width: 500px">
+                    <div class="row">
+                        <p class="col-xs-2"></p>
+                        <p class="col-xs-2"><a id="facebook" href="#" class="sociallink">f</a></p>
+                        <p class="col-xs-2"><a id="linked" href="#" class="sociallink">in</a></p>
+                        <p class="col-xs-2"><a id="insta" href="#" class="sociallink">i</a></p>
+                        <p class="col-xs-2"><a id="twitter" href="#" class="sociallink">t</a></p>
+                        <p class="col-xs-2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="myfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8">
+                    <h3>my projects</h3>
+                    <p><a href="#">generate</a></p>
+                    <p><a href="#">uom weeks</a></p>
+                    <p><a href="#">nonrepeat</a></p>
+                </div>
+                <div class="col-xs-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 style="margin-top: 20px;">&#169; motye ashvin | <span id="year"></span></h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('#year').innerHTML = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
